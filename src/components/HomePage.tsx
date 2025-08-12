@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Banner from "./Banner";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
+import TextSection from "./TextSection";
 
 gsap.registerPlugin(ScrollSmoother);
 
@@ -12,7 +13,7 @@ const HomePage = () => {
     ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
-      smooth: 2.5,
+      smooth: 5,
       effects: true,
       smoothTouch: 0.1,
     });
@@ -22,7 +23,7 @@ const HomePage = () => {
     <div id="smooth-wrapper">
       <div id="smooth-content">
         <Banner />
-        <Banner />
+        <TextSection />
       </div>
     </div>
   );

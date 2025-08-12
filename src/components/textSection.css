@@ -1,0 +1,26 @@
+.textSection {
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  height: 120vh;
+}
+
+.textSection h4 {
+  margin-top: 3rem;
+  width: 90%;
+  color: white;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 6rem;
+}
+
+.textSection .bottom {
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 100%;
+  height: 30rem;
+  background: #0A0A0A;
+  opacity: 0.93;
+}

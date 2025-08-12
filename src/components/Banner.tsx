@@ -41,7 +41,6 @@ const Banner = () => {
         trigger: ".banner",
         start: "90% 80%",
         end: "155% 80%",
-        markers: true,
         scrub: true,
       },
     });
@@ -59,7 +58,7 @@ const Banner = () => {
     <div className="relative w-full h-[100vh] !p-2 banner">
       <div className="capsuleBox">
         <div className="capsuleLogo">
-          <h1>Capsules</h1>
+          <h1>Capsules®</h1>
           <div className="loading"></div>
         </div>
       </div>
@@ -72,7 +71,7 @@ const Banner = () => {
             alt="Background"
           />
           <div className="top">
-            <h1>Capsules</h1>
+            <h1>Capsules®</h1>
             <button className="menuBtn">
               Reserve <GoArrowUpRight className="icon" />
             </button>
