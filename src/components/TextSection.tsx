@@ -8,7 +8,7 @@ const TextSection = () => {
       scrollTrigger: {
         trigger: ".textSection",
         start: "28% 70%",
-        end: "80% 70%",
+        end: "100% 70%",
         scrub: 1,
       },
     });

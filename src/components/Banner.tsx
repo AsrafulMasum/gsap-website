@@ -46,7 +46,7 @@ const Banner = () => {
     });
 
     scaleTimeline.to("#bgImage", {
-      transform: "scale(1.05)",
+      transform: "scale(1.08)",
     });
 
     return () => {

@@ -5,6 +5,8 @@ import Banner from "./Banner";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import TextSection from "./TextSection";
+import ChooseSection from "./ChooseSection";
+import ScrollCard from "./ScrollCard";
 
 gsap.registerPlugin(ScrollSmoother);
 
@@ -24,6 +26,8 @@ const HomePage = () => {
       <div id="smooth-content">
         <Banner />
         <TextSection />
+        <ChooseSection />
+        <ScrollCard />
       </div>
     </div>
   );
