@@ -7,7 +7,7 @@ const TextSection = () => {
     const textTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".textSection",
-        start: "28% 70%",
+        start: "30% 70%",
         end: "100% 70%",
         scrub: 1,
       },

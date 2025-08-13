@@ -13,8 +13,7 @@ const ScrollCard = () => {
         trigger: ".page4",
         start: "30% 30%",
         end: "230% 30%",
-        markers: true,
-        scrub: 1,
+        scrub: true,
         pin: true,
       },
     });
@@ -38,7 +37,7 @@ const ScrollCard = () => {
         "a"
       )
       .to(
-        ".page4 .background img",
+        ".page4 .background .image",
         {
           transform: "scale(1)",
         },
@@ -132,7 +131,7 @@ const ScrollCard = () => {
       </div>
 
       <div className="background">
-        <Image className="image" src={img2} alt="" />
+        <Image className="image" src={img1} alt="" />
         <div className="topText">
           <h4>classNameicCapsule®</h4>
           <h3>(Scroll)</h3>
